@@ -1,0 +1,283 @@
+
+header {
+  background-color: #333;
+  color: rgb(8, 248, 208);
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+  /* Media Queries for Responsive Design */
+  @media screen and (max-width: 768px) {
+    .menu ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .menu a {
+        display: block;
+        padding: 10px;
+    }
+}
+
+  /* Menu Styles */
+.menu {
+padding: 20px 0;
+text-align: center;
+}
+
+.menu ul {
+list-style: none;
+padding: 0;
+}
+
+.menu li {
+display: inline-block;
+margin: 0 15px;
+}
+
+.menu a {
+text-decoration: none;
+color: #333;
+background-color: #14bcf0;
+padding: 10px 20px;
+border-radius: 5px;
+font-weight: bold;
+font-size: 18px;
+transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.menu a:hover {
+background-color: #ddd;
+color: #333;
+}
+
+
+/* Menu Styles */
+.menu {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  background-color: #14bcf0;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.menu a:hover {
+  background-color: #12eb41;
+  color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+/* General Styles */
+/* Header styling */
+/* Header styling */
+.HeaderContent-sc-fvgclz-3 {
+    display: flex; /* Use flexbox for centering and arranging items */
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text within items */
+  }
+  
+  /* Styling for name */
+  .Name-sc-fvgclz-7 {
+    margin-bottom: 5px; /* Add some space below the name */
+    font-size: 24px; /* Larger font size */
+    font-weight: bold; /* Bold font weight */
+    color: rgb(10, 240, 221); /* White text color */
+  }
+  
+  /* Styling for title */
+/* Styling for initials */
+.Initials-sc-fvgclz-8 {
+  color: #2ce015; /* Green color */
+}
+
+/* Styling for title */
+.Title-sc-fvgclz-9 {
+  color: #2ce015; /* Green color */
+}
+
+
+  .Title-sc-fvgclz-9 {
+    margin-bottom: 20px; /* Add more space below the title */
+    font-size: 18px; /* Medium font size */
+    color: #2ce015; /* White text color */
+  }
+  
+  /* Styling for details container */
+  .Details-sc-fvgclz-4 {
+    display: flex; /* Use flexbox for arranging items */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+  }
+  
+  /* Styling for details items */
+  .DetailsItem-sc-fvgclz-5 {
+    margin-right: 20px; /* Add space between items */
+    margin-bottom: 10px; /* Add space below items */
+  }
+  
+  /* Styling for icons */
+  .IconCont-sc-fvgclz-25 svg {
+    fill: red; /* Red color for all icons */
+    width: 20px; /* Adjust icon size */
+    height: 20px;
+    margin-right: 10px; /* Margin between icon and text */
+  }
+  
+  /* Styling for lines */
+  .TitleLine-sc-fvgclz-11 {
+    height: 1px; /* Line height */
+    background-color: #7ff70f; /* Light gray color */
+    margin: 10px 0; /* Margin above and below the line */
+  }
+  
+  .Header-sc-fvgclz-2 {
+    background-color: #333; /* Block background color */
+    padding: 20px; /* Padding around the header */
+  }
+  
+  /* Styling for details text */
+  .DetailsText-sc-fvgclz-6 {
+    font-size: 16px; /* Smaller font size */
+    color: white; /* White text color */
+  }
+  
+  /* Styling for location icon */
+  #location {
+    fill: red; /* Red color for location icon */
+  }
+ 
+  
+
+
+
+
+
+
+  /* Adjustments to fully divide left and right sides */
+.container {
+  display: flex;
+  justify-content: space-between; /* Distribute items evenly, leaving no extra space between the main axis */
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.left-column {
+  color: #ddd;
+  flex: 1; /* Take up 50% of the available space */
+  padding: 768px;
+  background-color: #3b3535;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(224, 236, 224, 0.1);
+}
+/* Additional styling for the profile CV */
+.container {
+  display: flex;
+  justify-content: center;
+  float: left;
+}
+
+.left-column {
+  flex: 1;
+  max-width: 100%;
+  padding: 20px;
+ 
+}
+
+
+
+.Avatar {
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #04db04; /* Add a white border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.StyledUnbreakableSection {
+  margin-bottom: 30px;
+}
+
+.SubHeading {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.SubHeading h3 {
+  margin-bottom: 10px;
+}
+
+.Skill {
+  color: rgb(8, 8, 8);
+  background-color: #e015ad;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  font-size: bold;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .left-column {
+      max-width: 100%;
+  }
+}
+
+
+
